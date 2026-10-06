@@ -17,8 +17,5 @@ if ($judul === '' || $ringkasan === '' || $isi === '') {
 $stmt = $conn->prepare("INSERT INTO berita (judul, ringkasan, isi, tanggal_publish) VALUES (?, ?, ?, CURDATE())"); 
 $stmt->bind_param('sss', $judul, $ringkasan, $isi); 
 $stmt->execute(); 
-
 header('Location: ../news.php'); 
 exit; 
-
- 
