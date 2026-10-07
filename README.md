@@ -5,3 +5,5 @@ Perubahan ini dibuat dari simulasi Laptop B.
 
 Perubahan dari A untuk tes push ditolak.
 Perubahan dari B untuk tes push ditolak.
+
+test revert
